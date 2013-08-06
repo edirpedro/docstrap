@@ -13,7 +13,7 @@ Create a simple documentation tool to easely write documents using Markdown lang
 How to use
 --------------------------------------------------
 
-Get a [free copy](http://hub.edirpedro.com/docstrap) and read the informations of how to start writing your documentation.
+Get a [free copy](http://hub.edirpedro.com.br/docstrap) and read the informations of how to start writing your documentation. There you can see how it works too.
 
 
 Thanks to
