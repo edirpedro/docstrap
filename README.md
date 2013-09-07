@@ -7,7 +7,7 @@ Docstrap
 Objective
 --------------------------------------------------
 
-Create a simple documentation tool to easely write documents using Markdown language. This kit should be compact and distributed encapsulated into a single file to make it simple to install on the project server to anyone, even those who are not a developer.
+Create a simple documentation tool to easely write documents using Markdown language.
 
 
 How to use
@@ -22,7 +22,6 @@ Thanks to
 - [Markdown](http://en.wikipedia.org/wiki/Markdown)
 - [PHP Markdown Extra](http://michelf.ca/projects/php-markdown/extra/)
 - [Twitter Bootstrap](http://twitter.github.com/bootstrap)
-- [Bootswatch](http://bootswatch.com)
 
 
 License
