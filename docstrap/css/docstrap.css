@@ -25,7 +25,8 @@
 #docstrap-footer { border-top: 1px solid #ddd; }
 #docstrap-footer p { margin-right: 0; }
 
-h2 { padding-bottom: .1em; margin-bottom: .5em; border-bottom: 1px solid #eee; }
+h2 { padding-bottom: .1em; margin-top: 1.5em; margin-bottom: .5em; border-bottom: 1px solid #eee; }
+h3, h4, h5, h6 { color: #333; }
 
 dl { margin-bottom: 20px; }
 dt { font-weight: bold; margin: 1.5em 0 .5em; }

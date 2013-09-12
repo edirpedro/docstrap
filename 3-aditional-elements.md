@@ -7,22 +7,22 @@ Alerts
 --------------------------------------------------
 
 ~~~
-<div class="alert">
+<div class="alert alert-warning">
   <strong>Warning!</strong> Best check yo self, you're not looking too good.
 </div>
 ~~~
 
-<div class="alert">
+<div class="alert alert-warning">
   <strong>Warning!</strong> Best check yo self, you're not looking too good.
 </div>
 
 ~~~
-<div class="alert alert-error">
+<div class="alert alert-danger">
 	<strong>Oh snap!</strong> Change a few things up and try submitting again.
 </div>
 ~~~
 
-<div class="alert alert-error">
+<div class="alert alert-danger">
 	<strong>Oh snap!</strong> Change a few things up and try submitting again.
 </div>
 
