@@ -68,10 +68,12 @@ class Docstrap {
 
 	// Show on sidebar the list of documents
 	function the_documents($documents = null, $last_path = null) {
+		$current_path = empty($_GET['path']) ? null : $_GET['path'];
 		if(!$documents)
 			$documents = $this->documents;
 												
 		foreach($documents as $path => $title) {
+
 			// Dropdown
 			if(is_array($title)) {
 				if(array_key_exists("$path/index.md", $title))
@@ -91,7 +93,7 @@ class Docstrap {
 			} elseif(basename($path) != 'index.md') {
 				echo '<li';
 				
-				if($_GET['path'] == $path)
+				if($path == $current_path)
 					echo ' class="active"';
 				
 				echo'><a href="?path=' . $path . '">' . $title . '</a></li>';
