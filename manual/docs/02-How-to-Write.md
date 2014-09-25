@@ -1,4 +1,4 @@
-How to write
+How to Write
 ==================================================
  
 Titles
@@ -37,7 +37,7 @@ Lorem ipsum dolor sit amet, consectetur **bold** adipiscing elit. Praesent sed t
 Integer fringilla turpis sit amet `code` velit blandit pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.
 
 
-### Text options
+### Text Options
 
 - `**bold**` **Bold** 
 - `_italic_` _Italic_
@@ -101,7 +101,7 @@ function name(value) {
 Lists
 --------------------------------------------------
 
-### Simple list
+### Simple List
 
 ~~~
 * With an asterisk
@@ -113,7 +113,7 @@ Lists
 - With a minus signal
 + Or with a plus signal, you choose!
 
-### Numeric list
+### Numeric List
 
 ~~~
 1. Lorem ipsum
@@ -125,7 +125,7 @@ Lists
 2. Doler sit
 3. Amet
 
-### Cascade list
+### Cascade List
 
 ~~~
 1. First
@@ -142,7 +142,7 @@ Lists
 	- Amet
 	
 
-Definition list
+Definition List
 --------------------------------------------------
 
 <pre>
@@ -174,6 +174,8 @@ Second
 
 Tables
 --------------------------------------------------
+
+You can write tables using Markdown or using the regular HTML tag `<table>` if you thinks is more confortable.
 
 ### Model 1
 

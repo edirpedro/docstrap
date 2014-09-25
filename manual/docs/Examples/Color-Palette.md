@@ -201,5 +201,3 @@ Turquoise
 <div style="border: 20px solid #2b8cc4;"></div>
 Light Blue
 
-
-<!--[source]-->

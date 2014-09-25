@@ -4,16 +4,7 @@ Docstrap
 > A PHP parse documentation that generates a template on top of Twitter Bootstrap, reading files written using Markdown language.
 
 
-Objective
---------------------------------------------------
-
-Create a simple documentation tool to easely write documents using Markdown language.
-
-
-How to use
---------------------------------------------------
-
-Get a [free copy](http://hub.edirpedro.com.br/docstrap) and read the informations of how to start writing your documentation. There you can see how it works too.
+[How It Works](http://hub.edirpedro.com.br/docstrap)
 
 
 Thanks to

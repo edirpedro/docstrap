@@ -5,7 +5,7 @@ Docstrap
 
 With this tool you can write your project documentation using [Markdown](http://en.wikipedia.org/wiki/Markdown) language in such files like `document.md`, using your code editor and a clean markup. Then this parse tool can read these files and put everything into a gordeous template based on [Twitter Bootstrap](http://twitter.github.com/bootstrap) to make exactly what you see in these pages right now.
 
-<a class="btn btn-primary btn-lg" href="?path=/1-getting-started.md">Getting started</a>
+<a class="btn btn-primary btn-large" href="getting-started">Getting Started</a>
 
 ## Source of this page
 
@@ -17,5 +17,5 @@ Docstrap
 
 With this tool you can write your project documentation using [Markdown](http://en.wikipedia.org/wiki/Markdown) language in such files like `document.md`, using your code editor and a clean markup. Then this parse tool can read these files and put everything into a gordeous template based on [Twitter Bootstrap](http://twitter.github.com/bootstrap) to make exactly what you see in these pages right now.
 
-<a class="btn btn-primary btn-large" href="?path=/1-get-started.md">Get started</a>
+<a class="btn btn-primary btn-large" href="getting-started">Getting Started</a>
 ~~~

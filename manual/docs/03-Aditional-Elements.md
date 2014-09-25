@@ -1,7 +1,7 @@
-Aditional elements
+Aditional Elements
 ==================================================
 
-> You can use all the elements from <a href="http://twitter.github.com/bootstrap" target="_blank">Twitter Bootstrap</a> documentation or even any HTML tag. Here are some usefull elements.
+> You can use all the elements from <a href="http://getbootstrap.com" target="_blank">Twitter Bootstrap</a> documentation or even any HTML tag. Here are some usefull elements.
 
 Alerts
 --------------------------------------------------
@@ -49,7 +49,7 @@ Alerts
 </div>
 
 
-Labels and badges
+Labels and Badges
 --------------------------------------------------
 
 ### Labels
@@ -69,13 +69,4 @@ Labels and badges
 | --------- | --------------------------------------------- | ---------------------------------------------- |
 | Badge		| <span class="badge">42</span> 				| `<span class="badge">42</span>`				 |
 
-
-Page Source
---------------------------------------------------
-
-If you want to show the source code of the document inside the page, put the tag below at the end of your document, or at the point you want to show the code. The result is as you see on the examples pages.
-
-~~~
-<!--[source]-->
-~~~
 

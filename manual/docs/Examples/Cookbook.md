@@ -52,5 +52,3 @@ Definition
 
 	<span class="label label-warning">Warning</span> Consectetur adipiscing elit. Ut neque dolor, euismod vitae semper dapibus, tempor congue tellus. Curabitur eu nisi a neque volutpat lacinia.
 
-
-<!--[source]-->
