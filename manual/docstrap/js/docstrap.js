@@ -60,13 +60,13 @@ $(document).ready(function() {
 			$(this).find('span').text('+');
 			ul.removeClass('open');
 			ul.find('> li').reverse().each(function(i) {
-				$(this).delay(i*100).fadeOut();
+				$(this).delay(i*25).fadeOut('fast');
 			});
 		} else {
 			$(this).find('span').html('&ndash;');
 			ul.addClass('open');
 			ul.find('> li').each(function(i) {
-				$(this).delay(i*100).fadeIn();
+				$(this).delay(i*25).fadeIn('fast');
 			});
 		}
 	});
