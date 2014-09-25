@@ -4,7 +4,20 @@ Docstrap
 > A PHP parse documentation that generates a template on top of Twitter Bootstrap, reading files written using Markdown language.
 
 
-[How It Works](http://hub.edirpedro.com.br/docstrap)
+[Look How It Works](http://hub.edirpedro.com.br/docstrap)
+
+
+TODO
+--------------------------------------------------
+
+- Create a JSON configuration file;
+- Make SEO url better using only `-` and not `_`;
+- Basic SEO tags support;
+- OpenGraph tags suppport;
+- Connect to Google Analitycs when you have the code;
+- Create a pixel perfect favicon;
+- Make mobile menu works better for touch;
+- Button to view source file;
 
 
 Thanks to
