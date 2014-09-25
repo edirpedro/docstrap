@@ -35,6 +35,7 @@ class Docstrap {
 		$this->app = $root . $this->app;
 
 		$this->documents = $this->get_documents($this->docs);
+		//print_r($this->documents);
 		
 		$this->render();
 	}
@@ -77,12 +78,17 @@ class Docstrap {
 	}
 	
 	// Get file or folder path to URL
-	function get_url($filename, $path) {	
-		$name = preg_replace('/^[\d]+[_|-]/', '', $filename);
-		$name = str_replace('.md', '', $name);
-		$name = $this->base . substr("$path/$name", 1);
-		$name = strtolower($name);
-		return $name;
+	function get_url($filename, $path) {
+		$output = '';
+		$url = explode('/', substr("$path/$filename", 1));
+		foreach($url as $item) {
+			$item = preg_replace('/^[\d]+[_|-]/', '', $item);
+			$item = str_replace('.md', '', $item);
+			$output .= "/$item";
+		}
+		$output = $this->base . substr($output, 1);
+		$output = strtolower($output);
+		return $output;
 	}
 
 	// Show on sidebar the list of documents
@@ -136,7 +142,7 @@ class Docstrap {
 		} else {
 			$document = $this->get_document($request_uri);
 		}
-				
+						
 		if ($document) {
 			$content = file_get_contents($document['path']);
 			$this->document_title = $document['title'];
@@ -161,15 +167,20 @@ class Docstrap {
 	function get_document($path, $documents = array()) {
 		if (empty($documents))
 			$documents = $this->documents;
-
+			
 		foreach($documents as $file) {
-			if (array_key_exists('folder', $file))
-				return $this->get_document($path, $file['folder']);
-			elseif ($file['url'] == $path)
-				return $file;
+			if (array_key_exists('folder', $file)) {
+				$output = $this->get_document($path, $file['folder']);
+				if ($output)
+					break;
+			} elseif ($file['url'] == $path) {
+				$output = $file;
+				break;
+			} else
+				$output = false;
 		}
 		
-		return false;
+		return $output;
 	}
 	
 	// Render the entire template

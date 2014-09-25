@@ -29,7 +29,7 @@ $(document).ready(function() {
 		var id = slugg($(this).text());
 		$(this)
 			.attr('id', id)
-			.append('<a href="#' + id + '" class="glyphicon glyphicon-share"></a>');
+			.append('<a href="#' + id + '" class="glyphicon glyphicon-link" title="Get a link to this topic"></a>');
 	});
 	
 	// Position the page on the topic

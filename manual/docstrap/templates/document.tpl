@@ -48,10 +48,10 @@
 			<ul id="docstrap-menu" class="nav-sidebar">
 				{menu}
 			</ul>
-			<a id="docstrap-gototop" href="#"><span class="glyphicon glyphicon-chevron-up"></span></a>
 		</div>
 		<div id="docstrap-document" class="col-sm-8 col-sm-offset-4 col-md-9 col-md-offset-3 main">
 			{document}
+			<a id="docstrap-gototop" href="#"><span class="glyphicon glyphicon-chevron-up"></span></a>
 		</div>
 	</div>
 </div>
