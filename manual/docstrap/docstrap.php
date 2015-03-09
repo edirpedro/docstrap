@@ -33,10 +33,8 @@ class Docstrap {
 		
 		$this->docs = $root . $this->docs;
 		$this->app = $root . $this->app;
-
 		$this->documents = $this->get_documents($this->docs);
-		//print_r($this->documents);
-		
+
 		$this->render();
 	}
 	
