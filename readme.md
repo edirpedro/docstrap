@@ -1,6 +1,8 @@
 Docstrap
 ==================================================
 
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=S3LJ44E4W8HRJ)
+
 > A PHP parse documentation that generates a template on top of Twitter Bootstrap, reading files written using Markdown language.
 
 
